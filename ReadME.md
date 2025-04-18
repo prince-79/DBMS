@@ -68,7 +68,7 @@ Tracks how a player performed in a particular match.
 | Points     | INT   | Generated as: `Runs + Wickets * 25 + Catches * 10` |
 | **Primary Key** | Composite (`Match_ID`, `Player_ID`) |
 
-> ⚠️ Note: Duplicate `CREATE TABLE Performance` found — Bhai, tu loop mein chala gaya tha kya? 😅 Remove the second one.
+> 
 
 ---
 
